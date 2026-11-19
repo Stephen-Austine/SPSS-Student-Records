@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">SPSS dataset inspection workflow</title>
+  <desc id="description">Open the SAV dataset, inspect its dictionary and preview, then validate expected data properties with pytest.</desc>
+  <rect width="1200" height="300" rx="24" fill="#f4f8fb"/>
+  <text x="64" y="58" fill="#17344d" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">A SIMPLE, REPEATABLE WORKFLOW</text>
+  <text x="64" y="91" fill="#567084" font-family="Arial, Helvetica, sans-serif" font-size="17">Inspect SPSS metadata and verify the data from your terminal.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="64" y="130" width="300" height="112" rx="16" fill="#ffffff" stroke="#d7e3eb" stroke-width="2"/>
+    <circle cx="103" cy="169" r="22" fill="#dff7f2"/>
+    <text x="103" y="176" text-anchor="middle" fill="#167c70" font-size="18" font-weight="700">1</text>
+    <text x="140" y="167" fill="#17344d" font-size="18" font-weight="700">Open the .sav file</text>
+    <text x="140" y="197" fill="#567084" font-size="14">data/dataset_1A.sav</text>
+    <text x="140" y="219" fill="#567084" font-size="14">SPSS or pyreadstat</text>
+
+    <path d="M378 186h42m-10-10 10 10-10 10" fill="none" stroke="#78a0b5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="450" y="130" width="300" height="112" rx="16" fill="#ffffff" stroke="#d7e3eb" stroke-width="2"/>
+    <circle cx="489" cy="169" r="22" fill="#e6effb"/>
+    <text x="489" y="176" text-anchor="middle" fill="#3868a7" font-size="18" font-weight="700">2</text>
+    <text x="526" y="167" fill="#17344d" font-size="18" font-weight="700">Inspect the dictionary</text>
+    <text x="526" y="197" fill="#567084" font-size="14">Labels, measures, value labels</text>
+    <text x="526" y="219" fill="#567084" font-size="14">and missing-value counts</text>
+
+    <path d="M764 186h42m-10-10 10 10-10 10" fill="none" stroke="#78a0b5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="836" y="130" width="300" height="112" rx="16" fill="#ffffff" stroke="#d7e3eb" stroke-width="2"/>
+    <circle cx="875" cy="169" r="22" fill="#fff2d8"/>
+    <text x="875" y="176" text-anchor="middle" fill="#a16b12" font-size="18" font-weight="700">3</text>
+    <text x="912" y="167" fill="#17344d" font-size="18" font-weight="700">Run the checks</text>
+    <text x="912" y="197" fill="#567084" font-size="14">python -m pytest</text>
+    <text x="912" y="219" fill="#567084" font-size="14">Shape, summaries, labels</text>
+  </g>
+</svg>

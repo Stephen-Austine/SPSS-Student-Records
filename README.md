@@ -8,6 +8,8 @@ The project also includes a command-line inspection utility and automated
 tests that verify the dataset's shape, missing values, summaries, and value
 labels.
 
+![Overview infographic for the SPSS Student Records practice dataset](images/dataset-overview.svg)
+
 ## Table of contents
 
 - [Dataset overview](#dataset-overview)
@@ -90,6 +92,8 @@ When preparing or reviewing data in SPSS, use **Measure** in Variable View:
 | Path | Purpose |
 | --- | --- |
 | [`data/dataset_1A.sav`](data/dataset_1A.sav) | Source SPSS dataset with five cases and five variables |
+| [`images/dataset-overview.svg`](images/dataset-overview.svg) | Dataset overview infographic used in this README |
+| [`images/inspection-workflow.svg`](images/inspection-workflow.svg) | Visual summary of the inspect-and-test workflow |
 | [`inspect_sav.py`](inspect_sav.py) | Reads one or more `.sav` files and prints metadata and a preview |
 | [`tests/test_data.py`](tests/test_data.py) | pytest checks for shape, missing values, summaries, and labels |
 | [`requirements.txt`](requirements.txt) | Runtime and test dependencies |
@@ -170,6 +174,8 @@ python -m pytest
 
 An interpreter is not started when you execute `inspect_sav.py`; the script
 prints directly to standard output.
+
+![Three-step workflow: open the SAV file, inspect its dictionary, and run tests](images/inspection-workflow.svg)
 
 ## Inspecting the data
 
